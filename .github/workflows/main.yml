@@ -53,6 +53,10 @@ jobs:
         - os: linux
           target: armv7
           runner: ubuntu-24.04-arm
+        - os: linux
+          manylinux: manylinux_2_39
+          target: riscv64
+          runner: ubuntu-24.04-riscv
 
           # musllinux
         - os: linux
